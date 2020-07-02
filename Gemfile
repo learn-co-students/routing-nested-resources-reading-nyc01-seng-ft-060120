@@ -37,6 +37,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'annotate'
+  gem 'binding_of_caller'
+  gem 'better_errors'
 end
 
 group :development do
